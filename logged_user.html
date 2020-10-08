@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Logged User</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+<div class="header">
+	<img src = "images/small_images/folder.jpg" alt = "Folder Image"/><span class="head-text">Файловое хранилище v 0.01 (потеряй свои файлы красиво! ;))</span><img src = "images/small_images/folder.jpg" alt = "Folder Image"/>
+</div>
+
+<div class="second-head"><span class="right-head-text">Вы вошли в систему как <strong>Иванов Иван Иванович. </strong><a href="index.html">Выйти.</a></span></div>
+
+<div class="main-area">
+<div class="left-area"><strong>Можно загружать:</strong><br/>ZIP: (до 20 Mb);<br/>DOCX: (до 40 Mb);<br/>PPTX: (до 50 Mb);<br/><strong>Использовано:</strong><br/>27.34 Mb из 100.00 Mb</div>
+
+<div class="central-area"> 
+	<table id="myTable">
+		<tr>
+		<th class="downloads-header" onclick="sortTable(0)">Файл</th>
+		<th class="downloads-header" onclick="sortTable(1)">Размер (Kb)</th>
+		<th class="downloads-header" onclick="sortTable(2)">Дата и время</th>
+		<th class="downloads-header">Удалить</th>
+		</tr>
+		<tr>
+		<td class="first-cell"><a href="files/Мутный архив.zip">Мутный архив.zip</a></td>
+		<td class="downloads-cell">348.6</td>
+		<td class="downloads-cell">2020.07.08 18.54.17</td>
+		<td class="downloads-cell"><a href=#>Удалить</a></td>
+		</tr>
+		<tr>
+		<td class="first-cell"><a href="files/Как начать жизнь с понедельника.docx">Как начать жизнь с понедельника.docx</a></td>
+		<td class="downloads-cell">43678.6</td>
+		<td class="downloads-cell">2020.07.04 13.03.01</td>
+		<td class="downloads-cell"><a href=#>Удалить</a></td>
+		</tr>
+		<tr>
+		<td class="first-cell"><a href="files/__Вся правда о шаурме 2019.Cправочное пособие.docx">__Вся правда о шаурме 2019.Cправочное пособие.docx</a></td>
+		<td class="downloads-cell">78999.6</td>
+		<td class="downloads-cell">2020.06.04 21.17.09</td>
+		<td class="downloads-cell"><a href=#>Удалить</a></td>
+		</tr>
+		</tr>
+		<tr>
+		<td class="first-cell"><a href="files/Harry Potter and you know what.zip">Harry Potter and you know what.zip</a></td>
+		<td class="downloads-cell">54785785</td>
+		<td class="downloads-cell">2019.12.31 23.01.52</td>
+		<td class="downloads-cell"><a href=#>Удалить</a></td>
+		</tr>
+		<tr>
+		<td class="first-cell"><a href="files/100500 ways to provoke a cat.zip">100500 ways to provoke a cat.zip</a></td>
+		<td class="downloads-cell">562.8</td>
+		<td class="downloads-cell">2017.04.01 01.01.00</td>
+		<td class="downloads-cell"><a href=#>Удалить</a></td>
+		</tr>
+
+</table>
+<script src="scripts/table_sort.js"></script>
+ 	<div class="load-file-field">
+ 		<span class="load-new-file-lable">
+ 			Загрузить новый файл:
+ 		</span>
+ 		<div>
+        	<input class="select-file-button" type="button" name="select_file"value="Выбрать">
+      	</div>
+      	<div>
+        	<input class="upload-file-button" type="button" name="upload_file"value="Загрузить">
+      	</div>
+      	<div>
+      		<input class="selected-file-field" type="text" name="selected_file_name">
+      	</div>
+
+ 	</div>
+ 	<div class="get-from-server">
+ 		<span class="get-from-server-lable">
+ 			Запросить с удаленного сервера:
+ 		</span>
+		<div>
+      		<input class="request-file-field" type="text" name="request_file_name">
+      	</div> 		
+      	<span class="upload-to-vault-lable">
+ 			Поместить в хранилище:
+ 		</span>
+ 		<div class="should-upload">
+        	<input type="checkbox" name="upload_checkbox" value="on">
+     	</div>
+     	<div>
+        	<input class="request-file-button" type="button" name="request_file"value="Запросить">
+      	</div>
+
+ 	</div>
+</div>
+
+<div class="right-area"><strong>Статистика:</strong><br/>Пользователей: 123<br/>Файлов: 1234<br/>Объем: 2345 Mb<br/>Объем / польз.: 45 Mb
+</div>
+</div>
+<div class="footer">© 2020 HILLEL Training</div>
+</body>
+</html>
