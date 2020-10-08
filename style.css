@@ -40,7 +40,7 @@ body, html {
 	padding: 10px;
 	border-right: 3px solid;
 	border-color: #B8B8B8;
-	background-image: url(images/background/Grey.jpg);
+	background-image: url(images/background/grey.jpg);
 
 }
 .central-area {
@@ -52,7 +52,7 @@ body, html {
 .right-area {
 	padding: 10px;
 	text-align: left;
-	background-image: url(images/background/Grey.jpg);
+	background-image: url(images/background/grey.jpg);
 }
 .login-form {
 	border: 3px solid #B8B8B8;
